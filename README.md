@@ -36,3 +36,20 @@ To run the Decentralized Token Swapping Application locally for testing and deve
 
    ```bash
    git clone https://github.com/japjoh/jsmart.git
+   cd jsmart
+  npm install
+
+Once installed, let's run Hardhat's testing network:
+
+npx hardhat node
+
+Then, on a new terminal, go to the repository's root folder and run this to deploy your contract:
+
+npx hardhat run scripts/deploy.js --network localhost
+Finally, we can run the frontend with:
+
+cd frontend
+npm install
+npm start
+Open http://localhost:3000/ to see your Dapp. You will need to have Coinbase Wallet or Metamask installed and listening to localhost 8545.
+
