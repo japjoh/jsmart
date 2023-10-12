@@ -51,5 +51,6 @@ Finally, we can run the frontend with:
 cd frontend
 npm install
 npm start
+
 Open http://localhost:3000/ to see your Dapp. You will need to have Coinbase Wallet or Metamask installed and listening to localhost 8545.
 
