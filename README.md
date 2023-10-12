@@ -54,5 +54,5 @@ npm start
 
 Open http://localhost:3000/ to see your Dapp. You will need to have Coinbase Wallet or Metamask installed and listening to localhost 8545.
 
-enjoy the work
+enjoy the work - JJ
 
